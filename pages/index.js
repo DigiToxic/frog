@@ -9,7 +9,7 @@ export default function Home() {
       <div className="flex justify-evenly items-center mt-20 max-[550px]:flex-col">
         <div className="flex flex-col w-1/2 max-[550px]:w-5/6 max-[550px]:mb-16">
           <div className="text-4xl font-bold mb-2">
-            Guess who's back, folks?
+            Guess who&apos;s back, folks?
           </div>
           <p className="text-xl">
             The one and only Crazy Frog is here to ribbit and take your money

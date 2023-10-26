@@ -19,11 +19,11 @@ function Roadmap() {
             well-oiled frog slide!
           </li>
           <li className="mb-4 text-xl max-[650px]:text-lg">
-            Hire amphibious advisors, host a "Frog Olympics" with lily pad long
+            Hire amphibious advisors, host a &quot;Frog Olympics&quot; with lily pad long
             jumps, and distribute Tokens to early adopters.
           </li>
           <li className="mb-4 text-xl max-[650px]:text-lg">
-            Achieve 1,000 holders while croaking "Crypto-hop to the moon!" in
+            Achieve 1,000 holders while croaking &quot;Crypto-hop to the moon!&quot; in
             unison.
           </li>
         </div>
