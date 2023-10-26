@@ -58,7 +58,7 @@ const WelcomeOverlay = () => {
 
   const handleClick = () => {
     setIsOpen(true);
-    
+
     if (audioRef && audioRef.current) {
       audioRef.current.play();
     }
@@ -71,12 +71,10 @@ const WelcomeOverlay = () => {
   return (
     <>
       <audio ref={audioRef} src="/music/crazy_frog.mp3" preload="auto" />
-      
+
       <div className={`overlay overlay-left ${isOpen ? "open" : ""}`}></div>
       <div className={`overlay overlay-right ${isOpen ? "open" : ""}`}></div>
       {loading ? (
-
-
         <div></div>
       ) : (
         !isOpen && (
@@ -85,7 +83,7 @@ const WelcomeOverlay = () => {
             onClick={handleClick}
           >
             <div className="bg-[#738BBB] rounded-xl shadow-md shadow-[rgb(123,204,255)] hover:bg-[rgb(71,117,146)] hover:mt-2 hover:shadow-none">
-            <p className="text-5xl py-2 px-5">Enter</p>
+              <p className="text-5xl py-2 px-5">Enter</p>
             </div>
           </div>
         )
