@@ -1,10 +1,15 @@
 import Header from "./components/Header";
 import Roadmap from "./components/Roadmap";
 import Marquee from "react-fast-marquee";
+import WelcomeOverlay from "./components/WelcomeOverlay";
 
 export default function Home() {
   return (
     <div>
+      <div>
+        <WelcomeOverlay />
+      </div>
+
       <Header />
       <div className="flex justify-evenly items-center mt-20 max-[550px]:flex-col">
         <div className="flex flex-col w-1/2 max-[550px]:w-5/6 max-[550px]:mb-16">
