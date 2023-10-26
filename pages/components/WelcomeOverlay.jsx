@@ -38,7 +38,7 @@ const WelcomeOverlay = () => {
       setTimeout(() => {
         timerCompleted = true;
         checkBothCompleted();
-      }, 3000);
+      }, 0);
     }
   }, []);
 
@@ -75,14 +75,9 @@ const WelcomeOverlay = () => {
       <div className={`overlay overlay-left ${isOpen ? "open" : ""}`}></div>
       <div className={`overlay overlay-right ${isOpen ? "open" : ""}`}></div>
       {loading ? (
-        <div
-          className={`welcome-text flex flex-col justify-center items-center ${
-            fadeOut ? "fadeOut" : ""
-          }`}
-        >
 
-          <div className={`loader ${fadeOut ? "fadeOut" : ""}`}></div>
-        </div>
+
+        <div></div>
       ) : (
         !isOpen && (
           <div
