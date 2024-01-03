@@ -15,14 +15,14 @@ function Header() {
         </ScrollButton>
 
         <div className="flex justify-between items-center">
-          <Link href="https://twitter.com/CrazyFrogEthErc">
+          <Link href="https://twitter.com/CrazyOnSolana">
           <img
             className="cursor-pointer w-8 mr-5 hover:scale-105 ease-in-out duration-300"
             src="/logo/twAsset_21.svg"
             alt=""
           />
           </Link>
-          <Link href="https://t.me/CrazyFrogEthErc">
+          <Link href="https://t.me/CrazyFrogOnSOLANA">
           <img
             className="cursor-pointer w-8 mr-5 hover:scale-105 ease-in-out duration-300"
             src="/logo/tgAsset_22.svg"
