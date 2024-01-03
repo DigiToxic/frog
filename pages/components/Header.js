@@ -8,28 +8,32 @@ function Header() {
       <div className="flex justify-between items-center">
         <img className="w-16" src="/frog_logo.png" alt="" />
 
+        <ScrollButton targetId="Utility">
+          <div>
+            <p className="text-2xl underline">Utility</p>
+          </div>
+        </ScrollButton>
         <ScrollButton targetId="Roadmap">
-        <div>
-          <p className="text-2xl underline">Roadmap</p>
-        </div>
+          <div>
+            <p className="text-2xl underline">Roadmap</p>
+          </div>
         </ScrollButton>
 
         <div className="flex justify-between items-center">
           <Link href="https://twitter.com/CrazyOnSolana">
-          <img
-            className="cursor-pointer w-8 mr-5 hover:scale-105 ease-in-out duration-300"
-            src="/logo/twAsset_21.svg"
-            alt=""
-          />
+            <img
+              className="cursor-pointer w-8 mr-3 hover:scale-105 ease-in-out duration-300"
+              src="/logo/twAsset_21.svg"
+              alt=""
+            />
           </Link>
           <Link href="https://t.me/CrazyFrogOnSOLANA">
-          <img
-            className="cursor-pointer w-8 mr-5 hover:scale-105 ease-in-out duration-300"
-            src="/logo/tgAsset_22.svg"
-            alt=""
-          />
-             </Link>
-          <img className="cursor-pointer w-7 hover:scale-105 ease-in-out duration-300" src="/logo/dextools.svg" alt="" />
+            <img
+              className="cursor-pointer w-8 hover:scale-105 ease-in-out duration-300"
+              src="/logo/tgAsset_22.svg"
+              alt=""
+            />
+          </Link>
         </div>
       </div>
     </div>

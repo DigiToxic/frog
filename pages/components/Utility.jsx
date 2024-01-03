@@ -2,7 +2,7 @@ import React from "react";
 
 function Utility() {
   return (
-    <div className="h-full relative">
+    <div className="h-full relative" id="Utility">
       <div className="flex justify-center items-center mt-20">
         <p className="text-5xl">Utility</p>
       </div>
