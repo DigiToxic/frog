@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Utility from "./components/Utility";
 import Roadmap from "./components/Roadmap";
 import Marquee from "react-fast-marquee";
 import WelcomeOverlay from "./components/WelcomeOverlay";
@@ -104,6 +105,10 @@ export default function Home() {
         </Marquee>
       </div>
 
+      <Utility />
+      <div className="flex justify-center items-center pt-[160px] pb-20">
+        <div className="border-2 border-black w-3/4" />
+      </div>
       <Roadmap />
     </div>
   );
